@@ -12,9 +12,10 @@
   "engines": {
     "node": ">=8.9.0"
   },
-  "author": "lenconda <i@lenconda.top>",
+  "author": "wzb3422 <wzb3422@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "ali-oss": "^6.7.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-connect": "^5.0.0",
