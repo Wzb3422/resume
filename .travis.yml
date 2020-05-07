@@ -20,4 +20,4 @@ script:
 
 after_success:
   - cd ./dist
-  - ../tools/ossutil64 cp -f ./* oss://liuhu-blog/
+  - ../tools/ossutil64 cp -f ./* oss://wzb-resume/
