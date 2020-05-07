@@ -20,4 +20,8 @@ script:
 
 after_success:
   - cd ./dist
-  - ../tools/ossutil64 cp -f ./* oss://wzb-resume/
+  - zip -r blog.zip ./*
+  ## 删除OSS上旧文件
+  - ../tools/ossutil64 rm oss://wzb-resume/ -r -f
+  ## 上传zip文件
+  - ../tools/ossutil64 cp -f blog.zip oss://wzb-resume/
