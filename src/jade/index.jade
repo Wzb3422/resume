@@ -88,22 +88,22 @@ block experience
               each task in val.content.tasks
                 dd.experience-task.icon-gear!= task
 
-block rewards
-  section.rewards
-    .sec-title-wrapper.icon-trophy
-      h3.sec-title
-        span.sec-zh
-          | 竞赛获奖经历
-        span.sec-en
-          | Rewards
-    .timeline-wrapper
-      ul.sec-content.timeline
-        li.timeline-item
-          each reward in rewards
-            h3.timeline-title.icon-flags= reward.name
-            dl.skill-content
-              each task in reward.tasks
-                dd.skill-description.icon-star!= task
+//- block rewards
+//-   section.rewards
+//-     .sec-title-wrapper.icon-trophy
+//-       h3.sec-title
+//-         span.sec-zh
+//-           | 竞赛获奖经历
+//-         span.sec-en
+//-           | Rewards
+//-     .timeline-wrapper
+//-       ul.sec-content.timeline
+//-         li.timeline-item
+//-           each reward in rewards
+//-             h3.timeline-title.icon-flags= reward.name
+//-             dl.skill-content
+//-               each task in reward.tasks
+//-                 dd.skill-description.icon-star!= task
 
 block skills
   section.skills
@@ -115,11 +115,6 @@ block skills
           | Skills
     .timeline-wrapper
       ul.sec-content.timeline
-        li.timeline-item
-          each item in skills.summary
-            dd.skill-description
-              strong= item.name+"："
-              span=item.content.join('、')
         li.timeline-item
           h3.timeline-title.icon-html
             span.skill= skills.flags.name

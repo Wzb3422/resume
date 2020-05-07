@@ -5,10 +5,10 @@
     "PDF 会自动生成，文件名可以在 gulp.js 里改",
     "PDF 的地址，将这个文件里pdf部分改为你的PDF文件名即可"
   ],
-  "title": "彭瀚林 - Web 前端实习生",
+  "title": "邬振彬 - Web 前端实习生",
   "aside": [
     {
-      "href": "https://www.zhihu.com/people/prexus",
+      "href": "https://www.zhihu.com/people/whatever-80-41",
       "content": "知乎"
     },
     {
@@ -16,55 +16,54 @@
       "content": "源代码"
     },
     {
-      "href": "./pdf/彭瀚林-简历-Web 前端实习生.pdf",
+      "href": "./pdf/邬振彬-简历-Web 前端实习生.pdf",
       "content": "PDF 下载"
     }
   ],
   "header": {
-    "online": "http://resume.lenconda.top",
+    "online": "http://resume.wzbspace.top",
     "title": {
-      "name": "彭瀚林",
+      "name": "邬振彬",
       "job": "Web 前端实习生"
     },
     "contacts": {
-      "phone": "15717093862",
-      "mail": "i@lenconda.top",
-      "wechat": "FuturerTech",
+      "phone": "18172818754",
+      "mail": "wzb3422@gmail.com",
+      "wechat": "w3422hhz",
       "github": {
-        "href": "https://github.com/lenconda",
-        "name": "lenconda"
+        "href": "https://github.com/Wzb3422",
+        "name": "Wzb3422"
       },
       "blog": {
-        "href": "https://blog.lenconda.top",
-        "name": "Lenconda 的技术博客"
+        "href": "https://blog.wzbspace.top",
+        "name": "Wzb's Blog"
       }
     }
   },
   "education": {
-    "time": "2017 - 2021",
-    "name": "南昌大学",
+    "time": "2018 - 2022",
+    "name": "南昌大学 211",
     "major": "计算机科学与技术（本科）",
     "honor": [
-      "2017.09 - 2018.06：家园工作室 - 前端组成员",
-      "2018.09 - 至今：家园工作室 - `前端负责人`"
+      "2018.09 - 2018.06：家园工作室 - 前端组成员",
+      "2019.09 - 至今：家园工作室 - `研发组长 前端负责人`"
     ]
   },
   "language": {
     "cert": [
       {
         "name": "CET-4",
-        "grade": 559,
+        "grade": 558,
         "fullmarks": 710
       },
       {
         "name": "CET-6",
-        "grade": 490,
+        "grade": 458,
         "fullmarks": 710
       }
     ],
     "skills": [
-      "流畅地阅读英文文档、教程",
-      "熟练地使用英语编写 README 等"
+      "流畅地阅读英文文档、教程"
     ]
   },
   "experience": [
@@ -87,33 +86,14 @@
     },
     {
       "title": {
-        "place": "LinkStats",
-        "time": "2019.05 - 2019.08"
-      },
-      "content": {
-        "position": "产品、设计、前端、后端、数据库",
-        "tasks": [
-          "<a href=\"https://linkstats.lenconda.top\" target=\"_blank\">线上地址</a>",
-          "<a href=\"https://github.com/lenconda/linkstats_fe\" target=\"_blank\">GitHub 地址</a>",
-          "设计情景、确定产品原型、需求",
-          "基于 TypeScript + Koa 2 设计并开发后端架构",
-          "基于 MongoDB + Mongoose 设计数据库",
-          "基于 TypeScript + React + Ant Design 设计并开发前端",
-          "构建前端`自动化构建上线体系`，实现前端自动化运维"
-        ]
-      }
-    },
-    {
-      "title": {
         "place": "家园工作室",
-        "time": "2018.09 - 2019.06"
+        "time": "2018.09 - 至今"
       },
       "content": {
-        "position": "前端负责人",
+        "position": "研发组组长",
         "tasks": [
-          "Web 前端和 `Android/iOS App` 开发",
-          "参与制定新人培养方案",
-          "为新人提供前端培训和 Linux 培训",
+          "Web 前端开发",
+          "参与制定新人培养方案，为新人提供前端培训。",
           "参与全线产品的技术选型",
           "为工作室成员提供前端培训与技术分享",
           "参与建立前端自动化开发运维体系",
@@ -136,71 +116,36 @@
         "position": "客户端、后端",
         "tasks": [
           "使用 `TypeScript` + `React Native` 开发客户端",
-          "参与部分后端开发（Node.js + Koa 2）",
+          "参与部分后端开发（Node.js + NestJS）",
           "优化代码，提升组件可复用性和可维护性",
-          "参与产品更新迭代开发和维护工作"
+          "整理与编写项目文档，保证项目易交接"
         ]
       }
     },
     {
       "title": {
         "place": "家园工作室 - 云家园信息服务平台",
-        "time": "2017.09 - 2019.06"
+        "time": "2018.09 - 2019.06"
       },
       "content": {
         "position": "前端、维护",
         "tasks": [
           "基于 Vue 和 Webpack 开发单页面应用",
           "封装基础业务组件，降低项目整体耦合度",
-          "对组员提交的的代码进行 Code Review",
-          "日常参与维护、修改 Bug 、部署项目等",
-          "对单页应用进行埋点分析，复盘项目代码、总结经验和不足",
-          "带领组员优化代码结构和性能，确保为全校师生提供稳定的服务"
+          "对单页应用进行埋点分析，复盘项目代码、总结经验"
         ]
       }
-    }
-  ],
-  "rewards": [
-    {
-      "name": "2019 年亚洲大学生超算竞赛（ASC） - 二等奖",
-      "tasks": [
-        "优化 HPL 并撰写该部分的报告"
-      ]
     }
   ],
   "skills": {
-    "summary": [
-      {
-        "name": "语言",
-        "content": [
-          "JavaScript/ECMAScript 6+",
-          "TypeScript",
-          "HTML 5",
-          "CSS 3",
-          "Node.js",
-          "Python"
-        ]
-      },
-      {
-        "name": "工具/数据库",
-        "content": [
-          "Git",
-          "GitHub",
-          "MySQL",
-          "MongoDB",
-          "IntelliJ IDEA",
-          "Visual Studio Code"
-        ]
-      }
-    ],
     "flags": {
       "name": "Web 前端",
       "skill": [
         {
           "name": "HTML/CSS",
           "description": [
-            "使用语义化、结构化 HTML 编写网页结构",
-            "熟悉 CSS 3，并能熟练使用 CSS 完成样式设计",
+            "使用语义化 HTML 编写网页结构",
+            "熟练使用 CSS 完成样式设计",
             "能根据标注稿使用 REM 适配编写移动端网页"
           ]
         },
@@ -216,11 +161,9 @@
         {
           "name": "前端框架",
           "description": [
-            "理解 React 原理，日常使用 React 编写网页",
+            "了解 React 原理，日常使用 React 编写网页",
             "熟悉并日常使用 Ant Design (Pro) 作为 UI 框架",
-            "了解并掌握 BootStrap 的使用",
-            "了解并掌握 jQuery 的使用",
-            "了解并使用过 Angular 和 Vue 开发项目"
+            "了解并使用过 Vue 开发项目"
           ]
         },
         {
@@ -228,17 +171,14 @@
           "description": [
             "使用 `Webpack` 构建前端应用",
             "掌握多种`前端优化`方案，能从零配置并优化项目",
-            "对前端自动化流程有思考，`并推广到团队`",
-            "使用 `Yeoman` 构建自己的脚手架",
-            "对服务端渲染有思考，`并落地一套方案`"
+            "对前端自动化流程有思考，`并推广到团队`"
           ]
         },
         {
           "name": "其它知识",
           "description": [
             "根据后端 API 规范 `Mock` 测试数据",
-            "初步了解 Sock.js + Stomp 开发实时性较强的项目",
-            "了解微信小程序开发过程，并开发过个人项目（因资金原因未能上线）"
+            "使用 Taro 编写校园抗疫小程序，全校`五万师生稳定使用`"
           ]
         }
       ]
@@ -249,19 +189,17 @@
         {
           "name": "Node.js",
           "description": [
-            "熟练使用 `TS 和 Koa2 和 MongoDB` 编写项目后端",
-            "比较熟悉 SQL 语法，能设计数据表结构",
-            "使用 TypeORM、Sequelize 等 ORM 模型实现数据库的 CURD 操作",
-            "使用 `Chai 和 Mocha` 等框架完成单元测试",
+            "使用 TypeORM、Mongoose 等 ORM 实现数据库的 CURD",
+            "使用 Jest 完成单元测试",
             "使用 Node.js + Cheerio 和 Python + BeautifulSoup 4 等编写简单的网页爬虫"
           ]
         },
         {
           "name": "其它知识",
           "description": [
-            "使用 `Docker 和 Docker Compose` 完成项目的构建与部署",
+            "使用 `Docker` 完成项目的构建与部署",
             "使用 `Nginx` 作为反向代理和 Web 服务器部署个人项目和工作室项目",
-            "了解 `TCP/IP 模型`和 `HTTP` 1.1、2 等协议，熟悉其常用的功能和特性"
+            "了解 `HTTP`, 熟悉其常用的功能和特性"
           ]
         }
       ]
@@ -273,35 +211,22 @@
           "name": "性格",
           "description": [
             "性格较为开朗，容易融入集体，适合团队工作",
-            "乐于沟通，习惯于在与他人轻松愉悦的沟通中解决问题",
-            "乐观地对待身边的事物",
-            "对一切保有好奇，对未来怀着希望"
+            "乐于沟通，习惯于在与他人轻松愉悦的沟通中解决问题"
           ]
         },
         {
           "name": "专业",
           "description": [
-            "计算机科班生，对计算机的历史、现状和未来有充足且全面的认知，计算机和互联网世界的世界观已初具雏形",
-            "始终怀揣热忱地拥抱互联网和前端技术",
             "主动并乐意地探索前端和后端的最新技术，并有较强的自学能力和理解能力",
             "有意识地关注行业最新动态和最新技术"
           ]
         },
         {
-          "name": "开源贡献",
-          "description": [
-            "在 GitHub 上开源了一些自己造的轮子，`并发布在 NPM 上`",
-            "基于 Ghost 和 Docker 自建技术博客，从 2017 年更新至今",
-            "了解 VS Code 插件开发流程，并在商店中发布过一些插件"
-          ]
-        },
-        {
           "name": "工具使用",
           "description": [
-            "`5 年 Linux 使用与运维经验`",
+            "2 年 Linux 使用经验",
             "`熟练使用 Git 进行日常开发`",
             "熟悉 GitFlow 工作流，并在所有负责的团队项目中使用",
-            "使用合适的 IDE/编辑器进行日常高效率开发",
             "合理利用 Google、StackOverflow、GitHub Issues 等解决技术方面的困惑"
           ]
         }
