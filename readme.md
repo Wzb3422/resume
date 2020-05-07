@@ -2,7 +2,7 @@
 
 简历为仿写，原简历页面地址: [张秋怡 - 个人简历](https://joyeecheung.github.io/resume/) 【原主人已删除】
 
-* 简历基于 Gulp+Scss+Jade。  
+* 简历基于 Gulp+Scss+Jade。
 * 访问地址：[Lxxyx 的简历](https://resume.lxxyx.cn)
 
 **要求：Node 8.9.0 及以上**
@@ -68,5 +68,3 @@ npm run pdf
 ### 自定义域名
 
 修改 CNAME 文件，替换为你的域名即可
-
-
