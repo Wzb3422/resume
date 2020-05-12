@@ -8,11 +8,7 @@
   "title": "邬振彬 - Web 前端实习生",
   "aside": [
     {
-      "href": "https://www.zhihu.com/people/whatever-80-41",
-      "content": "知乎"
-    },
-    {
-      "href": "https://github.com/lenconda/resume",
+      "href": "https://github.com/Wzb3422/resume",
       "content": "源代码"
     },
     {
@@ -45,7 +41,7 @@
     "name": "南昌大学 211",
     "major": "计算机科学与技术（本科）",
     "honor": [
-      "2018.09 - 2018.06：家园工作室 - 前端组成员",
+      "2018.09 - 2019.08：家园工作室 - 前端组成员",
       "2019.09 - 至今：家园工作室 - `研发组长 前端负责人`"
     ]
   },
@@ -53,7 +49,7 @@
     "cert": [
       {
         "name": "CET-4",
-        "grade": 558,
+        "grade": 531,
         "fullmarks": 710
       },
       {
@@ -69,18 +65,15 @@
   "experience": [
     {
       "title": {
-        "place": "家园工作室 - 数字家园服务平台",
+        "place": "家园工作室 - 数字家园平台",
         "time": "2019.10 - 至今"
       },
       "content": {
         "position": "前端负责人",
         "tasks": [
-          "技术栈基于 `React` + `TypeScript` + `Ant Design` + `Umi` + `Dva`",
-          "参与技术选型，并根据需求确定前端整体架构",
-          "根据需求建立约定式+配置式相结合的前端路由机制",
-          "基于 GitFlow 制定项目组前端工作流程",
-          "基于阿里云 OSS 和 GitLab CI 建立自动化构建、部署体系",
-          "与后端共同制定 API 交互规范"
+          "解决上代系统的问题，严格约束`团队开发流程`",
+          "基于阿里云 OSS 和 GitLab CI 建立自动化构建、部署体系，`提高了团队协作效率`",
+          "技术栈为 React Umi Dva AntD"
         ]
       }
     },
@@ -92,17 +85,15 @@
       "content": {
         "position": "研发组组长",
         "tasks": [
-          "参与制定新人培养方案，为新人提供前端培训。",
+          "参与制定新人培养方案，为新人提供前端培训",
           "参与全线产品的技术选型",
-          "为工作室成员提供前端培训与技术分享",
-          "参与建立前端自动化开发运维体系",
-          "制定新的团队协作规范、制定新的前端代码风格规范、Git 规范"
+          "制定统一的团队协作规范、前端代码风格规范、Git 规范"
         ]
       }
     },
     {
       "title": {
-        "place": "家园工作室 - 南大家园（iNCU）",
+        "place": "家园工作室 - 南大家园 APP",
         "time": "2018.07 - 2019.06",
         "links": [
           {
@@ -115,7 +106,7 @@
         "position": "客户端、后端",
         "tasks": [
           "使用 `TypeScript` + `React Native` 开发客户端",
-          "参与部分后端开发（Node.js + NestJS）",
+          "参与部分后端开发 Node.js + NestJS，TDD 实践",
           "优化代码，提升组件可复用性和可维护性",
           "整理与编写项目文档，保证项目易交接"
         ]
@@ -123,15 +114,28 @@
     },
     {
       "title": {
-        "place": "家园工作室 - 云家园信息服务平台",
+        "place": "家园工作室 - 云家园信息平台",
         "time": "2018.09 - 2019.06"
       },
       "content": {
         "position": "前端、维护",
         "tasks": [
           "基于 Vue 和 Webpack 开发单页面应用",
-          "封装基础业务组件，降低项目整体耦合度",
-          "对单页应用进行埋点分析，复盘项目代码、总结经验"
+          "封装基础业务组件，降低项目整体耦合度"
+        ]
+      }
+    },
+    {
+      "title": {
+        "place": "南昌大学抗疫小程序 - 香樟祺",
+        "time": "2020.02 - 2020.04"
+      },
+      "content": {
+        "position": "前端、云开发",
+        "tasks": [
+          "使用 TaroJS & TS 进行开发，降低了学习成本",
+          "使用小程序`Serverless 云开发`，减少运维成本",
+          "保证小程序的稳定性，服务 5 万师生"
         ]
       }
     }
@@ -141,7 +145,7 @@
       "name": "Web 前端",
       "skill": [
         {
-          "name": "HTML/CSS",
+          "name": "HTML / CSS",
           "description": [
             "使用语义化 HTML 编写网页结构",
             "熟练使用 CSS 完成样式设计",
@@ -149,35 +153,31 @@
           ]
         },
         {
-          "name": "JavaScript/ECMAScript",
+          "name": "JavaScript / ECMAScript",
           "description": [
             "`熟练使用 ES 6/7/Next 进行项目开发`",
             "严格遵守 `ESLint 规范` 及团队代码规范",
-            "掌握`常用的异步处理方案`",
-            "个人项目使用 TypeScript 开发"
+            "掌握`常用的异步处理方案`"
           ]
         },
         {
           "name": "前端框架",
           "description": [
             "了解 React 原理，日常使用 React 编写网页",
-            "熟悉并日常使用 Ant Design (Pro) 作为 UI 框架",
-            "了解并使用过 Vue 开发项目"
+            "熟悉并日常使用 Ant Design (Pro) 作为 UI 框架"
           ]
         },
         {
           "name": "前端工程化",
           "description": [
             "使用 `Webpack` 构建前端应用",
-            "掌握多种`前端优化`方案，能从零配置并优化项目",
-            "对前端自动化流程有思考，`并推广到团队`"
+            "了解 `前端优化` 方案，能够配置并优化项目"
           ]
         },
         {
           "name": "其它知识",
           "description": [
-            "根据后端 API 规范 `Mock` 测试数据",
-            "使用 Taro 编写校园抗疫小程序，全校`五万师生稳定使用`"
+            "根据后端 API 规范 `Mock` 测试数据"
           ]
         }
       ]
@@ -188,17 +188,16 @@
         {
           "name": "Node.js",
           "description": [
-            "使用 TypeORM、Mongoose 等 ORM 实现数据库的 CURD",
+            "使用 NestJS / Koa 结合 TypeORM、Mongoose 等 ORM 实现数据库的 CURD",
             "使用 Jest 完成单元测试",
-            "使用 Node.js + Cheerio 和 Python + BeautifulSoup 4 等编写简单的网页爬虫"
+            "使用 Node.js + Cheerio 等编写简单的网页爬虫"
           ]
         },
         {
           "name": "其它知识",
           "description": [
-            "使用 `Docker` 完成项目的构建与部署",
-            "使用 `Nginx` 作为反向代理和 Web 服务器部署个人项目和工作室项目",
-            "了解 `HTTP`, 熟悉其常用的功能和特性"
+            "了解 `HTTP` 熟悉其常用的功能和特性",
+            "能够解决常见的跨域问题"
           ]
         }
       ]
@@ -207,25 +206,19 @@
       "name": "其它",
       "skill": [
         {
-          "name": "性格",
-          "description": [
-            "性格较为开朗，容易融入集体，适合团队工作",
-            "乐于沟通，习惯于在与他人轻松愉悦的沟通中解决问题"
-          ]
-        },
-        {
           "name": "专业",
           "description": [
-            "主动并乐意地探索前端和后端的最新技术，并有较强的自学能力和理解能力",
-            "有意识地关注行业最新动态和最新技术"
+            "全面拥抱`英文文档`",
+            "有较强的自学能力和理解能力",
+            "有意识地去了解行业最新动态和技术。<br>如：WebAssembly、Serverless",
+            "坚持编写`技术博客`"
           ]
         },
         {
           "name": "工具使用",
           "description": [
-            "2 年 Linux 使用经验",
-            "`熟练使用 Git 进行日常开发`",
-            "熟悉 GitFlow 工作流，并在所有负责的团队项目中使用",
+            "2 年 Linux 使用经验, 日常使用 MacOS 进行开发",
+            "`熟练使用 Git 进行日常开发`, 熟悉 GitFlow 工作流",
             "合理利用 Google、StackOverflow、GitHub Issues 等解决技术方面的困惑"
           ]
         }
