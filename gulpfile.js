@@ -124,7 +124,7 @@ gulp.task('pdf', ['set-pdf-port', 'default', 'webserver'], async () => {
   await page.goto('http://localhost:9001')
   await delay(100)
 
-  const exportPath = path.join(__dirname, './dist/pdf/邬振彬-简历-Web 前端实习生.pdf');
+  const exportPath = path.join(__dirname, './dist/pdf/邬振彬-南昌大学211-Web前端实习生.pdf');
 
   fs.mkdir(path.join(__dirname, './dist/pdf'), () => {
     fs.writeFileSync(exportPath, '', { encoding: 'utf-8' })

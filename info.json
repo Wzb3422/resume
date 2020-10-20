@@ -12,12 +12,12 @@
       "content": "源代码"
     },
     {
-      "href": "./pdf/邬振彬-简历-Web 前端实习生.pdf",
+      "href": "./pdf/邬振彬-南昌大学211-Web前端实习生.pdf",
       "content": "PDF 下载"
     }
   ],
   "header": {
-    "online": "http://resume.wzbspace.top",
+    "online": "http://resume.zebwu.com",
     "title": {
       "name": "邬振彬",
       "job": "Web 前端实习生"
@@ -25,13 +25,13 @@
     "contacts": {
       "phone": "18172818754",
       "mail": "wzb3422@gmail.com",
-      "wechat": "w3422hhz",
+      "wechat": "heyzebwu",
       "github": {
         "href": "https://github.com/Wzb3422",
         "name": "Wzb3422"
       },
       "blog": {
-        "href": "https://blog.wzbspace.top",
+        "href": "https://blog.zebwu.com",
         "name": "Wzb's Blog"
       }
     }
@@ -59,10 +59,22 @@
       }
     ],
     "skills": [
-      "流畅地阅读英文文档、教程"
+      "流畅地阅读英文文档、博客"
     ]
   },
   "experience": [
+    {
+      "title": {
+        "place": "腾讯（深圳）PCG - 移动商业产品部",
+        "time": "2020.7 - 2020.10"
+      },
+      "content": {
+        "position": "前端实习生",
+        "tasks": [
+          "前端基础设施与效能提升"
+        ]
+      }
+    },
     {
       "title": {
         "place": "数字家园信息平台",
