@@ -1,0 +1,32 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Use Node.js 8.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '8.x'
+
+    - name: Build project
+      run: |
+        echo install dependencies
+        npm i
+        echo build project
+        npm run build
+    - name: aliyun-oss-website-action
+      uses: fangbinwei/aliyun-oss-website-action@v1
+      with:
+        folder: dist
+        accessKeyId: ${{ secrets.ACCESSKEYID }}
+        accessKeySecret: ${{ secrets.ACCESSKEYSECRET }}
+        bucket: wzb-resume
+        endpoint: oss-cn-shanghai.aliyuncs.com
+        skipSetting: true
